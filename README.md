@@ -639,3 +639,4 @@ You can deploy JSON Server. For example, [JSONPlaceholder](http://jsonplaceholde
 MIT
 
 [Supporters](https://thanks.typicode.com) ✨
+# fit-GenAPI-Glitch
