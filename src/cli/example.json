@@ -1,9 +1,2205 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "customers": [
+    {
+      "name": "Stephen Smith",
+      "email": "stephen@gmail.com",
+      "phoneNumber": "7065624634",
+      "id": 7
+    },
+    {
+      "name": "Brenn Butler",
+      "email": "B@gmail.com",
+      "phoneNumber": "232324435",
+      "id": 8
+    },
+    {
+      "name": "Stephen",
+      "email": "stephenAsmith7178@gmail.com",
+      "phoneNumber": "7065624634",
+      "id": 9
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "qoutes": [
+    {
+      "Id": 1,
+      "Quote": "Strong people are harder to kill than weak people and more useful in general.",
+      "Author": "Mark Rippetoe",
+      "Category": "Other"
+    },
+    {
+      "Id": 2,
+      "Quote": "Biceps are like ornaments on a Christmas tree.",
+      "Author": "Ed Coan",
+      "Category": "Other"
+    },
+    {
+      "Id": 3,
+      "Quote": "Sell yourself short on nutrition and you’re selling yourself short on maximizing your physique development.",
+      "Author": "Ernie Taylor",
+      "Category": "Other"
+    },
+    {
+      "Id": 4,
+      "Quote": "Just remember...a little Chinese girl is warming up with your max somewhere.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 5,
+      "Quote": "Fortunately,there is a solution and it’s not performing multiple sets of whatever cable Kegel exercise is being pushed as “The Answer.” Just a little hard",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 6,
+      "Quote": "Your love for what you do and willingness to push yourself where others aren't prepared to go is what will make you great.",
+      "Author": "Laurence Shahlaei",
+      "Category": "Other"
+    },
+    {
+      "Id": 7,
+      "Quote": "My old routine was McDonald's on the way to the gym,coffee during my workout Burger King and Copenhagen post-workout.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 8,
+      "Quote": "If your waist measurement begins with a 2...EAT!",
+      "Author": "SCStrong",
+      "Category": "Other"
+    },
+    {
+      "Id": 9,
+      "Quote": "If you want something you’ve never had you must be willing to do something you’ve never done.",
+      "Author": "Thomas Jefferson",
+      "Category": ""
+    },
+    {
+      "Id": 10,
+      "Quote": "I'm an extremist and I hope to be remembered that way: noncompliant and an artist. I do not want to be remembered as a nice guy. I want to be the slayer of Bambi.",
+      "Author": "David Dearth",
+      "Category": ""
+    },
+    {
+      "Id": 11,
+      "Quote": "If a man tells you he doesn't lift because he doesn't want to get too bulky.. then his testicles have been removed.",
+      "Author": "Paul Carter",
+      "Category": ""
+    },
+    {
+      "Id": 12,
+      "Quote": "For me, life is about continuously staying hungry. The meaning of life is not simply to survive",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 13,
+      "Quote": "If you're capable of sending a legible text message between sets..you probably aren't working hard enough.",
+      "Author": "Dave Tate",
+      "Category": ""
+    },
+    {
+      "Id": 14,
+      "Quote": "Last time I checked, lifting theory has a PR of zero.",
+      "Author": "Steve Shaw",
+      "Category": ""
+    },
+    {
+      "Id": 15,
+      "Quote": "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying 'I will try again tomorrow'.",
+      "Author": "Mary Anne Radmacher",
+      "Category": ""
+    },
+    {
+      "Id": 16,
+      "Quote": "Don’t have $100.00 shoes and a 10 cent squat.",
+      "Author": "Louie Simmons",
+      "Category": "Other"
+    },
+    {
+      "Id": 17,
+      "Quote": "A champion is someone who gets up when they can’t.",
+      "Author": "Jack Dempsey",
+      "Category": "Other"
+    },
+    {
+      "Id": 18,
+      "Quote": "I'm the strongest bodybuilder who ever lived...I think.",
+      "Author": "Franco Columbu",
+      "Category": ""
+    },
+    {
+      "Id": 19,
+      "Quote": "There is no such thing as over training, just under nutrition and under sleeping.",
+      "Author": "The Barbarian Brothers",
+      "Category": ""
+    },
+    {
+      "Id": 20,
+      "Quote": "The road to nowhere is paved with excuses.",
+      "Author": "Mark Bell",
+      "Category": "Other"
+    },
+    {
+      "Id": 21,
+      "Quote": "I don’t do this to be healthy, I do this to get big muscles.",
+      "Author": "Markus Ruhl",
+      "Category": ""
+    },
+    {
+      "Id": 22,
+      "Quote": "I'm not the kind of guy who tries to run between the drops. Sometimes you gotta get a little wet to reach your destination",
+      "Author": "Erik Fankhouser",
+      "Category": "Other"
+    },
+    {
+      "Id": 23,
+      "Quote": "Discipline is doing what you hate to do...but nonetheless doing it like you love it.",
+      "Author": "Mike Tyson",
+      "Category": ""
+    },
+    {
+      "Id": 24,
+      "Quote": "Mediocre athletes that tried like hell to get good are the best coaches.",
+      "Author": "Mark Rippetoe",
+      "Category": "Other"
+    },
+    {
+      "Id": 25,
+      "Quote": "Strength does not come from physical capacity. It comes from an indomitable will.",
+      "Author": "Mahatma Gandhi",
+      "Category": "Other"
+    },
+    {
+      "Id": 26,
+      "Quote": "The single biggest mistake that most beginners make is putting 100% of their effort into the positive (concentric) part of the rep, while paying no attention to the negative (eccentric) segment.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 27,
+      "Quote": "Most champions are built by punch the clock workouts rather than extraordinary efforts.",
+      "Author": "Dan John",
+      "Category": "Other"
+    },
+    {
+      "Id": 28,
+      "Quote": "There's more to life than training but training is what puts more in your life.",
+      "Author": "Brooks Kubik",
+      "Category": ""
+    },
+    {
+      "Id": 29,
+      "Quote": "There is no reason to be alive if you can't do the deadlift!",
+      "Author": "Jon Pall Sigmarsson",
+      "Category": "Other"
+    },
+    {
+      "Id": 30,
+      "Quote": "You are right to be wary. There is much bullshit. Be wary of me too because I may be wrong. Make up your own mind after you evaluate all the evidence and the logic.",
+      "Author": "Mark Rippetoe",
+      "Category": ""
+    },
+    {
+      "Id": 31,
+      "Quote": "I would like to be the first man in the gym business to throw out my scale. If you don’t like what you see in the mirror what difference does it make what the scale says?",
+      "Author": "Vince Gironda",
+      "Category": ""
+    },
+    {
+      "Id": 32,
+      "Quote": "Don't measure yourself by what you have accomplished but by what you should have accomplished with your ability.",
+      "Author": "John Wooden",
+      "Category": ""
+    },
+    {
+      "Id": 33,
+      "Quote": "Nothing can stop the man with the right mental attitude from achieving his goal, and nothing on earth can help the man with the wrong mental attitude.",
+      "Author": "Thomas Jefferson",
+      "Category": "Other"
+    },
+    {
+      "Id": 34,
+      "Quote": "Stimulate don't Annihilate.",
+      "Author": "Lee Haney",
+      "Category": "Other"
+    },
+    {
+      "Id": 35,
+      "Quote": "There are no shortcuts. The fact that a shortcut is important to you means that you are a pussy.",
+      "Author": "Mark Rippetoe",
+      "Category": "Other"
+    },
+    {
+      "Id": 36,
+      "Quote": "I believe you should train with the program you believe in. I'm out of the \"justify my program\" business; follow the path that will lead you to glorious times to quote Ramesses.",
+      "Author": "Jim Wendler",
+      "Category": ""
+    },
+    {
+      "Id": 37,
+      "Quote": "Anyone under 200 pounds is a woman.",
+      "Author": "Matt Rhodes",
+      "Category": "Other"
+    },
+    {
+      "Id": 38,
+      "Quote": "Life's too short to be small! ",
+      "Author": "Coach Terry Powell",
+      "Category": ""
+    },
+    {
+      "Id": 39,
+      "Quote": "I don’t eat for taste I eat for function.",
+      "Author": "Jay Cutler",
+      "Category": ""
+    },
+    {
+      "Id": 40,
+      "Quote": "If you think lifting weights is dangerous, try being weak. Being weak is dangerous.",
+      "Author": "Bret Contreras",
+      "Category": ""
+    },
+    {
+      "Id": 41,
+      "Quote": "That's a good weight...for a small woman",
+      "Author": "Dorian Yates",
+      "Category": "Other"
+    },
+    {
+      "Id": 42,
+      "Quote": "It's a rare individual who lets themselves be steered by what they feel is their own passion.",
+      "Author": "Dave Tate",
+      "Category": "Other"
+    },
+    {
+      "Id": 43,
+      "Quote": "I never think about losing.",
+      "Author": "Lou Ferrigno",
+      "Category": "Other"
+    },
+    {
+      "Id": 44,
+      "Quote": "At the end of the day it's not a weight contest, it's a visual contest. And it doesn't matter what you say you weigh if you don't look that big then you don't look that big.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 45,
+      "Quote": "They can crack jokes. They can sit back and analyze and criticize and make all the fun they want. But I’m living my life I’m doing it. What are you doing?",
+      "Author": "Kai Greene",
+      "Category": ""
+    },
+    {
+      "Id": 46,
+      "Quote": "On the Internet everyone squats. But in real life the squat rack is always empty. You figure out what this means.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 47,
+      "Quote": "I don't feel sorry for those who lack the discipline to eat more.",
+      "Author": "JM Blakely",
+      "Category": "Other"
+    },
+    {
+      "Id": 48,
+      "Quote": "I’ve made many good friends in bodybuilding though there are few I’d trust to oil my back.",
+      "Author": "Lee Labrada",
+      "Category": ""
+    },
+    {
+      "Id": 49,
+      "Quote": "The longer I train the less and less shit I do. The less shit I do the stronger I get. The more I emphasize recovery",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 50,
+      "Quote": "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender that is strength.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": ""
+    },
+    {
+      "Id": 51,
+      "Quote": "When I go out there onstage I want to be more than just a blocky guy who waddles onto the posing platform. I want the girls to feel something.",
+      "Author": "Tom Platz",
+      "Category": ""
+    },
+    {
+      "Id": 52,
+      "Quote": "The question isn’t who is going to let me; it’s who is going to stop me.",
+      "Author": "Ayn Rand",
+      "Category": "Other"
+    },
+    {
+      "Id": 53,
+      "Quote": "Everybody wants to be a bodybuilder but don’t nobody want to lift heavy ass weights!",
+      "Author": "Ronnie Coleman",
+      "Category": "Other"
+    },
+    {
+      "Id": 54,
+      "Quote": "Bodybuilding isn’t 90 minutes in the gym. It’s a lifestyle.",
+      "Author": "Lee Priest",
+      "Category": "Other"
+    },
+    {
+      "Id": 55,
+      "Quote": "Champions aren’t made in the gyms. Champions are made from something they have deep inside them-a desire a dream a vision.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 56,
+      "Quote": "It took me 20 years of hard training to get the physique I have today. What you need is what I had – belief in yourself!",
+      "Author": "Branch Warren",
+      "Category": "Other"
+    },
+    {
+      "Id": 57,
+      "Quote": "Vision creates faith and faith creates willpower. With faith there is no anxiety and no doubt – just absolute confidence in yourself.there is no anxiety and no doubt – just absolute confidence in yourself.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": ""
+    },
+    {
+      "Id": 58,
+      "Quote": "Being negative and lazy is a disease that leads to pain, hardships, and depression",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 59,
+      "Quote": "Bodybuilding is much like any other sport. To be successful you must dedicate yourself 100% to your training diet and mental approach.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 60,
+      "Quote": "Intensity builds immensity.",
+      "Author": "Kevin Levrone",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 61,
+      "Quote": "The first and greatest victory is to conquer self.",
+      "Author": "Plato",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 62,
+      "Quote": "The pain of discipline is nothing like the pain of disappointment.",
+      "Author": "Justin Langer",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 63,
+      "Quote": "Discipline is built by consistently performing small acts of courage.",
+      "Author": "Robin Sharma",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 64,
+      "Quote": "If I want to be great I have to win the victory over myself…self-discipline.",
+      "Author": "Harry S. Truman",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 65,
+      "Quote": "We must all suffer one of two things: the pain of discipline or the pain of regret.",
+      "Author": "Jim Rohn",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 66,
+      "Quote": "If I Have To Die Tonight If This Weight Is Going To Kill Me Tonight SO BE IT! I’m Dying Where I Wanna Be…",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 67,
+      "Quote": "The best activities for your health are pumping and humping.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 68,
+      "Quote": "Discipline is the bridge between your bodybuilding goals and bodybuilding success.",
+      "Author": "Felicity Luckey",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 69,
+      "Quote": "I always say to myself right before a tough set in the gym Ain’t nothin’ to it but to do it.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 70,
+      "Quote": "If you don’t follow a good nutritional plan you’re bodybuilding with one arm behind your back.",
+      "Author": "Shawn Ray",
+      "Category": ""
+    },
+    {
+      "Id": 71,
+      "Quote": "Self-discipline is about controlling your desires and impulses while staying focused on what needs to get done to achieve your goal.",
+      "Author": "Adam Sicinski",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 72,
+      "Quote": "Rule of thumb: Eat for what you’re going to be doing and not for what you have done. Don’t take in more than you’re willing to burn off.",
+      "Author": "Lee Haney",
+      "Category": "Self Discipline"
+    },
+    {
+      "Id": 73,
+      "Quote": "Bodybuilding is an art your body is the canvas weights are your brush and nutrition is your paint. We all have the ability to turn a self-portrait into a masterpiece.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 74,
+      "Quote": "Success is what comes after you stop making excuses.",
+      "Author": "Luis Galarza",
+      "Category": "Success"
+    },
+    {
+      "Id": 75,
+      "Quote": "You can have results or excuses. Not both",
+      "Author": "Arnold Schwarzenegger",
+      "Category": "Success"
+    },
+    {
+      "Id": 76,
+      "Quote": "When it gets difficult it's often right before you succeed.",
+      "Author": "Jeffrey Walker",
+      "Category": "Success"
+    },
+    {
+      "Id": 77,
+      "Quote": "Successful people are not gifted; they just work hard then succeed on purpose.",
+      "Author": "",
+      "Category": "Unknown"
+    },
+    {
+      "Id": 78,
+      "Quote": "Success is the sum of small efforts repeated day-in and day-out.",
+      "Author": "Robert Collier",
+      "Category": "Success"
+    },
+    {
+      "Id": 79,
+      "Quote": "If you train hard you’ll not only be hard, you’ll be hard to beat.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 80,
+      "Quote": "If you can imagine it you can achieve it; if you can dream it you can become it.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 81,
+      "Quote": "You were born to win. But to be a winner you must plan to win",
+      "Author": "",
+      "Category": "prepare to win"
+    },
+    {
+      "Id": 82,
+      "Quote": "There are no secrets to success. It is the result of preparation, hard work and learning from failure.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 83,
+      "Quote": "Your body is a piece of art but it’s always a work in progress. You are never done improving your symmetry and eliminating weak points.",
+      "Author": "Morgan Aste",
+      "Category": "Success"
+    },
+    {
+      "Id": 84,
+      "Quote": "No pain, no gain",
+      "Author": "",
+      "Category": "Unknown"
+    },
+    {
+      "Id": 85,
+      "Quote": "I’m using your hate as my fuel.",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 86,
+      "Quote": "Winners focus on winning, losers focus on winners.",
+      "Author": "Unknown",
+      "Category": ""
+    },
+    {
+      "Id": 87,
+      "Quote": "Use your haters as stepping stones to get to the top.",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 88,
+      "Quote": "It’s not your job to like me – it’s mine.",
+      "Author": "Byron Katie",
+      "Category": "Haters"
+    },
+    {
+      "Id": 89,
+      "Quote": "Jealousy is just love and hate at the same time.",
+      "Author": "Drake",
+      "Category": "Haters"
+    },
+    {
+      "Id": 90,
+      "Quote": "If you can’t handle being talked about you’re not ready for success.",
+      "Author": "Unknown",
+      "Category": ""
+    },
+    {
+      "Id": 91,
+      "Quote": "Funny…for hating me so much you sure do think about me quite often!",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 92,
+      "Quote": "Haters only hate the things they can’t have and the people they can’t be.",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 93,
+      "Quote": "Being defeated is often a temporary condition. Giving up is what makes it permanent.",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 94,
+      "Quote": "Sometimes I feel like giving up. But then I remember I have a lot of motherfuckers to prove wrong.",
+      "Author": "Unknown",
+      "Category": "Haters"
+    },
+    {
+      "Id": 95,
+      "Quote": "You will face your greatest opposition when you are closest to your biggest miracle.",
+      "Author": "Shannon L. Alder",
+      "Category": "Haters"
+    },
+    {
+      "Id": 96,
+      "Quote": "When it comes to eating right and exercising there is no ‘I’ll start tomorrow.’ Tomorrow is a disease.",
+      "Author": "V.L. Allinear",
+      "Category": ""
+    },
+    {
+      "Id": 97,
+      "Quote": "The fight is won or lost far away from witnesses behind the lines in the gym",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 98,
+      "Quote": "Winners do what they fear.",
+      "Author": "Franco Columbu",
+      "Category": "Failure"
+    },
+    {
+      "Id": 99,
+      "Quote": "Failure is a success in progress.",
+      "Author": "Albert Einstein",
+      "Category": "Failure"
+    },
+    {
+      "Id": 100,
+      "Quote": "There is no such thing as failure only results.",
+      "Author": "Tony Robbins",
+      "Category": ""
+    },
+    {
+      "Id": 101,
+      "Quote": "People who avoid failure also avoid success.",
+      "Author": "Robert T. Kiyosaki",
+      "Category": "Failure"
+    },
+    {
+      "Id": 102,
+      "Quote": "The real workout starts when you want to stop.",
+      "Author": "Ronnie Coleman",
+      "Category": "Failure"
+    },
+    {
+      "Id": 103,
+      "Quote": "Victory isn’t defined by wins and losses it’s defined by effort.",
+      "Author": "Kai Greene",
+      "Category": ""
+    },
+    {
+      "Id": 104,
+      "Quote": "The body always fails first not the mind. The trick is to make the mind work for you not against you.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 105,
+      "Quote": "Just like in bodybuilding failure is also a necessary experience for growth in our own lives for if we’re never tested to our limits",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 106,
+      "Quote": "Look in the mirror. That’s your competition.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 107,
+      "Quote": "To be a champion you must act like a champion.",
+      "Author": "Lou Ferrigno",
+      "Category": ""
+    },
+    {
+      "Id": 108,
+      "Quote": "Tough times don’t last. Tough people do.",
+      "Author": "Robert H. Schuller",
+      "Category": "Other"
+    },
+    {
+      "Id": 109,
+      "Quote": "If you aren’t begging for rest. Then you aren’t training your best.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 110,
+      "Quote": "Don’t wish it were easier. Wish you were better.",
+      "Author": "Jim Rohn",
+      "Category": "Other"
+    },
+    {
+      "Id": 111,
+      "Quote": "You have to be at your strongest when you’re feeling at your weakest.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 112,
+      "Quote": "Come in the gym like you’re going to war.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 113,
+      "Quote": "There is no strength without struggle.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 114,
+      "Quote": "Push yourself because no one else is going to do it.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 115,
+      "Quote": "You don’t find will power",
+      "Author": "you create it.",
+      "Category": "Unknown"
+    },
+    {
+      "Id": 116,
+      "Quote": "Wanting something is not enough. You must hunger for it.",
+      "Author": "Les Brown",
+      "Category": "Other"
+    },
+    {
+      "Id": 117,
+      "Quote": "It’s not about having time. It’s about making time.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 118,
+      "Quote": "The wolf on the hill is not as hungry as the wolf climbing the hill.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": "Other"
+    },
+    {
+      "Id": 119,
+      "Quote": "You are the only one who can limit your greatness.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 120,
+      "Quote": "Stop doubting yourself. Work hard and make it happen.",
+      "Author": "Unknown",
+      "Category": "Other"
+    },
+    {
+      "Id": 121,
+      "Quote": "The worst thing I can be is the same as everybody else.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": "Other"
+    },
+    {
+      "Id": 122,
+      "Quote": "The muscle and the mind must become one. One without the other is zero.",
+      "Author": "Lee Haney",
+      "Category": "Other"
+    },
+    {
+      "Id": 123,
+      "Quote": "There’s no secret formula. I lift heavy work hard and aim to be the best.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 124,
+      "Quote": "A bodybuilder is a sculptor who carries with him his own material.",
+      "Author": "Serge Nubret",
+      "Category": "Other"
+    },
+    {
+      "Id": 125,
+      "Quote": "The last three or four reps is what makes the muscle grow. This area of pain divides the champion from someone who is not a champion.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": "Other"
+    },
+    {
+      "Id": 126,
+      "Quote": "Unless you puke, faint or die",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 127,
+      "Quote": "Don’t be upset by the results you didn’t get with the work you didn’t do.",
+      "Author": "Unknown",
+      "Category": "Hard Work"
+    },
+    {
+      "Id": 128,
+      "Quote": "Skill is only developed by hours and hours of work.",
+      "Author": "Usain Bolt",
+      "Category": "Hard Work"
+    },
+    {
+      "Id": 129,
+      "Quote": "Whenever you feel like giving up think of all the people that would love to see you fail.",
+      "Author": "Unknown",
+      "Category": ""
+    },
+    {
+      "Id": 130,
+      "Quote": "Once you have commitment you need the discipline and hard work to get you there.",
+      "Author": "Haile Gebrselassie",
+      "Category": ""
+    },
+    {
+      "Id": 131,
+      "Quote": "You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.",
+      "Author": "George Lorimer",
+      "Category": "Hard Work"
+    },
+    {
+      "Id": 132,
+      "Quote": "Strength is the product of struggle. You must do what others don’t to achieve what others wont.",
+      "Author": "Henry Rollins",
+      "Category": "Hard Work"
+    },
+    {
+      "Id": 133,
+      "Quote": "Stop wishing. Start doing.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 134,
+      "Quote": "A year from now…we’ll see who was really working.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 135,
+      "Quote": "Hustle until you no longer have to introduce yourself.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 136,
+      "Quote": "No one cares about your problems. Work harder.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 137,
+      "Quote": "Grind while they sleep. Learn while they party. Live like they dream.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 138,
+      "Quote": "You won’t get much done if you grind only on the days you feel good.",
+      "Author": "Unknown",
+      "Category": "Hustle & Grind"
+    },
+    {
+      "Id": 139,
+      "Quote": "Not all hustle is loud. Sometimes hustle is just you, all alone",
+      "Author": "Unknown",
+      "Category": "grinding"
+    },
+    {
+      "Id": 140,
+      "Quote": "You can’t cheat the grind it knows how much you have invested. It wont give you anything you haven’t worked for.",
+      "Author": "Unknown",
+      "Category": ""
+    },
+    {
+      "Id": 141,
+      "Quote": "You see things; and you say ‘Why?' But I dream things that never were; and I say ‘Why not?'",
+      "Author": "Unknown",
+      "Category": ""
+    },
+    {
+      "Id": 142,
+      "Quote": "You are never too old to set another goal or to dream a new dream.",
+      "Author": "C.S. Lewis",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 143,
+      "Quote": "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+      "Author": "Ralph Waldo Emerson",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 144,
+      "Quote": "Start where you are. Use what you have. Do what you can.",
+      "Author": "Arthur Ashe",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 145,
+      "Quote": "No matter where you're from your dreams are valid.",
+      "Author": "Lupita Nyong'o",
+      "Category": ""
+    },
+    {
+      "Id": 146,
+      "Quote": "Never limit yourself because of others’ limited imagination; never limit others because of your own limited imagination.",
+      "Author": "Mae Jemison",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 147,
+      "Quote": "A man is not old until regrets take the place of dreams.",
+      "Author": "John Barrymore",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 148,
+      "Quote": "Keep away from people who try to belittle your ambitions. Small people always do that but the really great make you feel that you too",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 149,
+      "Quote": "The only thing that will stop you from fulfilling your dreams is you.",
+      "Author": "Tom Bradley",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 150,
+      "Quote": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+      "Author": "Epicurus",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 151,
+      "Quote": "The future belongs to those who believe in the beauty of their dreams.",
+      "Author": "Eleanor Roosevelt",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 152,
+      "Quote": "The only thing worse than starting something and failing … is not starting something.",
+      "Author": "Seth Godin",
+      "Category": "Dreams"
+    },
+    {
+      "Id": 153,
+      "Quote": "You don’t have to see the whole staircase just take the first step.",
+      "Author": "Martin Luther King",
+      "Category": ""
+    },
+    {
+      "Id": 154,
+      "Quote": "Be miserable. Or motivate yourself. Whatever has to be done it’s always your choice.",
+      "Author": "Wayne Dyer",
+      "Category": ""
+    },
+    {
+      "Id": 155,
+      "Quote": "When I'm old and dying I plan to look back on my life and say Wow",
+      "Author": "",
+      "Category": "‘"
+    },
+    {
+      "Id": 156,
+      "Quote": "Remember to celebrate milestones as you prepare for the road ahead.",
+      "Author": "Nelson Mandela",
+      "Category": "Other"
+    },
+    {
+      "Id": 157,
+      "Quote": "The mind is the limit. As long as the mind can envision the fact that you can do something you can do it as long as you really believe 100 percent.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 158,
+      "Quote": "The more knowledge you have the more you’re free to rely on your instincts.",
+      "Author": "Arnold Schwarzenegger",
+      "Category": ""
+    },
+    {
+      "Id": 159,
+      "Quote": "Aint nuttin' but a peanut.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 160,
+      "Quote": "My biggest competition is always myself. I mean no disrespect but I do not look at any of the guys as being my competition for the simple reason that I can't control how they're going to look. I can only control how I look.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 161,
+      "Quote": "There's no secrets or magic tricks to being successful in life. It's plain and simple. Work harder than everyone else and the only way to do that is to do it. It may sound silly but it's the truth and there aint nothing to it but to do it!",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 162,
+      "Quote": "It is important to have people believe in you. With this support what you can achieve is limitless.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 163,
+      "Quote": "Women really do pay attention to a man's glutes. A tight compact ass is often voted even more desirable than muscular arms and chest. So if you're lacking",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 164,
+      "Quote": "I loved challenging myself every day. The weight room was my therapy for everyday life stresses. No matter what I was doing I always wanted to be the best.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 165,
+      "Quote": "Never underestimate the power of wide-grip pull-ups to develop width and size.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 166,
+      "Quote": "I've been training so long its second nature to push myself to the limit.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 167,
+      "Quote": "Each workout is like a brick in a building and every time you go in there and do a half-ass workout you're not laying a brick down. Somebody else is.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 168,
+      "Quote": "If I listened to my instincts I'd be down at the pub chasing women not under a 400 pound bar squatting",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 169,
+      "Quote": "If those guys with better genes trained as hard and intense as me I wouldn`t stand a chance!",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 170,
+      "Quote": "The single biggest mistake that most beginners make is putting 100% of their effort into the positive (concentric) part of the rep while paying no attention to the negative (eccentric) segment",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 171,
+      "Quote": "One set at extreme intensity does the muscle-building job. It must be stressed that the one final all-out set I do takes me to the very limit of my capabilities. If you feel you can attempt a second set then you couldn’t have been pulling out all the stops during the first set. It's not pretty",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 172,
+      "Quote": "For me winning isn`t surprising at all.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 173,
+      "Quote": "Some people's joints articulate in a manner that allows them to benefit greatly from squats; others may not benefit at all. If you're not too tall and have short limbs it may be the best exercise for you but if you're tall with long legs",
+      "Author": "",
+      "Category": " "
+    },
+    {
+      "Id": 174,
+      "Quote": "All else being equal the guy with the best genetics will have the best physique. But rarely are all things equal.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 175,
+      "Quote": "Shoulder width is an absolute requirement for displaying the V taper that will make or break your physique",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 177,
+      "Quote": "Complex carbohydrates are always best except again",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 178,
+      "Quote": "The path to added muscle is consuming more calories than the amount needed to keep your current bodyweight unchanged.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 179,
+      "Quote": "During weight cutting your mind plays tricks on you.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 180,
+      "Quote": "I also think you have less separation if you are fuller. If you go to the gym and pump your arms up they are bigger because of the blood volume the fullness. But the separation is not so defined.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 181,
+      "Quote": "Back in the 80s we were very cautious about steroids.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 182,
+      "Quote": "Steroids are used in all sports.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 183,
+      "Quote": "I started training bodybuilding in 1983.",
+      "Author": "Dorian Yates",
+      "Category": ""
+    },
+    {
+      "Id": 184,
+      "Quote": "I always say to myself right before a tough set in the gym Ain't nothin' to it but to do it.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 185,
+      "Quote": "When you love something as much as I love bodybuilding you don't have to do much extra to push yourself it just happens. There were some tough times and when those came up I just used my mental strength to push through knowing that my mind controlled everything.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 186,
+      "Quote": "I never focus on contraction. I'm focusing on my muscle. I'm not focusing on a certain style of lifting or contracting. I'm just trying to get the weight up. I'm trying to build muscle.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 187,
+      "Quote": "I've attained my mass basically by training hard and very very heavy.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 188,
+      "Quote": "I learned from a very young age that no one owes you anything and nobody's gonna give you a damn thing. But you can have anything you want if you work hard enough for it.",
+      "Author": "Branch Warren",
+      "Category": ""
+    },
+    {
+      "Id": 189,
+      "Quote": "If you take a hammer and hit something over and over again it's gonna be destroyed. I don't wanna destroy my body cause I want my body to last me as long as it possible can. If you train hard and push it everyday your body is going to wear out. So I give my body time to recover.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 190,
+      "Quote": "Just because your triceps have fallen behind your biceps doesn't mean you should back off your triceps workouts.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 191,
+      "Quote": "Your body produces a lot less testosterone each and every single year no matter who you are. We are all human nobody is super human.",
+      "Author": "Ronnie Coleman",
+      "Category": ""
+    },
+    {
+      "Id": 192,
+      "Quote": "The more you're obsessed by something the better chance you have of achieving it.",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 193,
+      "Quote": "The truth I've discovered is that you don't have to lift enormous weights to grow muscle. By using stricter form slower negatives and stretching between sets you can get an incredible pump in all your workouts. Numbers are an abstraction",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 194,
+      "Quote": "Live your life by the hour not by the day. What will you achieve in the next hour?",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 195,
+      "Quote": "A lot of guys have better genes but if you work hard and consistently you can outperform them.",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 196,
+      "Quote": "Being weak is a choice so is being strong.",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 197,
+      "Quote": "Continuity is how you build a physique.",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 198,
+      "Quote": "In those days I did what was necessary for me to win. This included training with heavy weights: a precursor for injury. So if I could do it over again I’d train with lighter weights higher reps",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 199,
+      "Quote": "To be successful in bodybuilding you have to be a good observer",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 200,
+      "Quote": "The old time strongmen used to lift huge weights just enough to clear a sheet of paperit is in this tradition that Sri Chinmoy's lifts should be seen. His real goal is to bring attention to the spiritual life which is the real source of his power. For someone who is approaching 70 years of age training every day with such ponderous weights to inspire humanity is the real world record.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 201,
+      "Quote": "Back in the day I took a lot of supplements and tons of amino acids. Still do. But back then it was pretty unusual. That's how I got the nickname The Chemist.",
+      "Author": "Frank Zane",
+      "Category": ""
+    },
+    {
+      "Id": 202,
+      "Quote": "Actually to be a champion your goal is to be a little bit better each day making sure that every day is an opportunity to be at your best.",
+      "Author": "Phil Heath",
+      "Category": ""
+    },
+    {
+      "Id": 203,
+      "Quote": "The mindset of a champion is that I put myself in a certain situation to win I don't play to lose I dont prepare to lose",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 204,
+      "Quote": "When you pick up your first magazine you definitely hope you can be like the guy on the magazine. That's usually why you start lifting.",
+      "Author": "Phil Heath",
+      "Category": ""
+    },
+    {
+      "Id": 205,
+      "Quote": "There's no way in hell I could have achieved what I have without being a good student and listening to the wisdom of others",
+      "Author": "Phil Heath",
+      "Category": ""
+    },
+    {
+      "Id": 206,
+      "Quote": "Bodybuilding isn’t 90 minutes in the gym..it’s a lifestyle.",
+      "Author": "Lee Priest",
+      "Category": ""
+    },
+    {
+      "Id": 207,
+      "Quote": "I had a guy come up to me once in the gym when I'm training arms and tell me that I should do curls this way. I looked at his arms and they were about fifteen inches. That would be like me walking up to Tom Platz and telling him how to squat!",
+      "Author": "Lee Priest",
+      "Category": ""
+    },
+    {
+      "Id": 208,
+      "Quote": "I don't do this to be healthy I do this to get big muscles.",
+      "Author": "Markus Ruhl",
+      "Category": ""
+    },
+    {
+      "Id": 209,
+      "Quote": "The most important lesson I've learned is that the most productive exercises are simple and compound.",
+      "Author": "Markus Ruhl",
+      "Category": ""
+    },
+    {
+      "Id": 210,
+      "Quote": "If a man doesn't have a dream then he has nothing to work for. Nothing to get up in the morning. No reason no purpose",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 211,
+      "Quote": "he person with the biggest dreams is more powerful than the person with all the answers.",
+      "Author": "Kai Greene",
+      "Category": ""
+    },
+    {
+      "Id": 212,
+      "Quote": "The harder you work and the more you sear and bleed for a win the sweeter that victory tastes.",
+      "Author": "Branch Warren",
+      "Category": ""
+    },
+    {
+      "Id": 213,
+      "Quote": "I train for two reasons. Number one I love working out and number two",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 214,
+      "Quote": "I always go heavy and I always go to failure. Even when I tell myself I'm gonna go easy once I get to the gym and start working I never end up going easy. I hate leaving the floor feeling like I could have done more weight or more reps. I just love working out and going further than I ever did before.",
+      "Author": "",
+      "Category": ""
+    },
+    {
+      "Id": 215,
+      "Quote": "It took me 20 years of hard training to get the physique I have today. what you need is what i had - BELIEF IN YOURSELF.",
+      "Author": "Branch Warren",
+      "Category": ""
+    },
+    {
+      "Id": 216,
+      "Quote": "I would never have turned pro training like an average bodybuilder. There is no substitute for intensity.",
+      "Author": "Branch Warren",
+      "Category": ""
+    },
+    {
+      "Id": 217,
+      "Quote": "I think that strength levels go hand in hand with building a great physique. You've got to lift heavy weight to get big - period.",
+      "Author": "Branch Warren",
+      "Category": ""
+    }
   ],
-  "profile": { "name": "typicode" }
+  "goals": [
+    {
+      "id": 1,
+      "name": "strength training"
+    },
+    {
+      "id": 2,
+      "name": "build muscle/burn fat"
+    },
+    {
+      "id": 3,
+      "name": "strength/mobility"
+    }
+  ],
+  "muscleGroup": [
+    {
+      "id": 1,
+      "name": "Back/Biceps"
+    },
+    {
+      "id": 2,
+      "name": "Chest/Triceps"
+    },
+    {
+      "id": 3,
+      "name": "Legs/Shoulders"
+    },
+    {
+      "id": 4,
+      "name": "Core Exercise"
+    },
+    {
+      "id": 5,
+      "name": "Agility/HIIT"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "beginner"
+    },
+    {
+      "id": 2,
+      "name": "intermediate"
+    },
+    {
+      "id": 3,
+      "name": "advanced"
+    }
+  ],
+  "customerWorkouts": [
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-07T14:59:25.288Z",
+      "id": 1
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-07T16:12:30.992Z",
+      "id": 2
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-08T00:06:44.779Z",
+      "id": 3
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-08T16:06:23.159Z",
+      "id": 4
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-08T17:42:04.212Z",
+      "id": 5
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-08T22:14:59.246Z",
+      "id": 7
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-08T22:15:12.169Z",
+      "id": 8
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-09T13:56:56.834Z",
+      "id": 9
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-09T14:43:35.105Z",
+      "id": 10
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-09T16:26:15.144Z",
+      "id": 11
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-10T19:00:27.165Z",
+      "id": 12
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-10T19:01:14.552Z",
+      "id": 13
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 3,
+      "muscleId": 3,
+      "dateCompleted": "2022-08-10T19:10:08.071Z",
+      "id": 14
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-10T19:16:24.384Z",
+      "id": 15
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-10T19:30:39.154Z",
+      "id": 16
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-10T19:57:30.628Z",
+      "id": 18
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-10T23:07:41.395Z",
+      "id": 19
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 3,
+      "dateCompleted": "2022-08-11T16:31:04.155Z",
+      "id": 20
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-11T16:58:27.472Z",
+      "id": 21
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-11T17:53:12.211Z",
+      "id": 23
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-11T20:03:39.184Z",
+      "id": 24
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-12T11:49:48.735Z",
+      "id": 25
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-12T11:55:43.554Z",
+      "id": 26
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-12T19:03:05.573Z",
+      "id": 27
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-12T19:32:40.351Z",
+      "id": 30
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-12T19:54:42.505Z",
+      "id": 31
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 3,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-12T19:57:46.130Z",
+      "id": 32
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-12T20:17:01.058Z",
+      "id": 33
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T11:38:41.139Z",
+      "id": 34
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-13T16:34:08.690Z",
+      "id": 35
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-13T17:55:03.368Z",
+      "id": 36
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-13T19:09:46.657Z",
+      "id": 37
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T22:20:33.370Z",
+      "id": 38
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T23:27:56.078Z",
+      "id": 39
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T23:35:39.012Z",
+      "id": 40
+    },
+    {
+      "customerId": 7,
+      "experienceId": "stretch",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T23:36:14.493Z",
+      "id": 41
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-13T23:56:22.219Z",
+      "id": 43
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-14T11:42:53.962Z",
+      "id": 44
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-14T12:12:35.360Z",
+      "id": 45
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-14T13:42:22.534Z",
+      "id": 46
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-14T15:03:59.457Z",
+      "id": 47
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-08-14T15:04:06.199Z",
+      "id": 48
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 1,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-14T22:12:16.384Z",
+      "id": 49
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 1,
+      "muscleId": 3,
+      "dateCompleted": "2022-08-14T22:20:31.670Z",
+      "id": 50
+    },
+    {
+      "customerId": 8,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 1,
+      "dateCompleted": "2022-08-14T22:25:00.162Z",
+      "id": 51
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-09-02T12:58:36.328Z",
+      "id": 52
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 2,
+      "muscleId": 2,
+      "dateCompleted": "2022-09-04T00:22:15.638Z",
+      "id": 53
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-09-05T14:24:55.537Z",
+      "id": 54
+    },
+    {
+      "customerId": 7,
+      "experienceId": "",
+      "goalId": 3,
+      "muscleId": 3,
+      "dateCompleted": "2022-09-14T01:30:21.476Z",
+      "id": 55
+    },
+    {
+      "customerId": 9,
+      "experienceId": "",
+      "goalId": 1,
+      "muscleId": 2,
+      "dateCompleted": "2022-11-13T14:52:30.629Z",
+      "id": 56
+    }
+  ],
+  "workoutExercises": [
+    {
+      "workoutId": 5,
+      "exerciseId": 21,
+      "id": 13
+    },
+    {
+      "workoutId": 5,
+      "exerciseId": 11,
+      "id": 14
+    },
+    {
+      "workoutId": 5,
+      "exerciseId": 4,
+      "id": 15
+    },
+    {
+      "workoutId": 6,
+      "exerciseId": 3,
+      "id": 16
+    },
+    {
+      "workoutId": 6,
+      "exerciseId": 5,
+      "id": 17
+    },
+    {
+      "workoutId": 6,
+      "exerciseId": 7,
+      "id": 18
+    },
+    {
+      "workoutId": 6,
+      "exerciseId": 14,
+      "id": 19
+    },
+    {
+      "workoutId": 8,
+      "exerciseId": 4,
+      "id": 24
+    },
+    {
+      "workoutId": 8,
+      "exerciseId": 9,
+      "id": 25
+    },
+    {
+      "workoutId": 8,
+      "exerciseId": 15,
+      "id": 26
+    },
+    {
+      "workoutId": 9,
+      "exerciseId": 1,
+      "id": 27
+    },
+    {
+      "workoutId": 9,
+      "exerciseId": 8,
+      "id": 28
+    },
+    {
+      "workoutId": 9,
+      "exerciseId": 10,
+      "id": 29
+    },
+    {
+      "workoutId": 9,
+      "exerciseId": 18,
+      "id": 30
+    },
+    {
+      "workoutId": 10,
+      "exerciseId": 9,
+      "id": 31
+    },
+    {
+      "workoutId": 10,
+      "exerciseId": 4,
+      "id": 32
+    },
+    {
+      "workoutId": 10,
+      "exerciseId": 2,
+      "id": 33
+    }
+  ],
+  "customerProgress": [
+    {
+      "customerId": 7,
+      "image": "https://glenburniefitnessandnutrition.com/wp-content/uploads/2021/12/inbody-scanner-270-results-printout-791x1024.png",
+      "dateCompleted": "2022-08-12T18:53:21.915Z",
+      "id": 9
+    },
+    {
+      "customerId": 7,
+      "image": "https://glenburniefitnessandnutrition.com/wp-content/uploads/2021/12/inbody-scanner-270-results-printout-791x1024.png",
+      "dateCompleted": "2022-08-12T22:13:13.678Z",
+      "id": 11
+    },
+    {
+      "customerId": 7,
+      "image": "https://glenburniefitnessandnutrition.com/wp-content/uploads/2021/12/inbody-scanner-270-results-printout-791x1024.png",
+      "dateCompleted": "2022-08-12T22:21:52.468Z",
+      "id": 12
+    },
+    {
+      "customerId": 9,
+      "image": "https://glenburniefitnessandnutrition.com/wp-content/uploads/2021/12/inbody-scanner-270-results-printout-791x1024.png",
+      "dateCompleted": "2022-11-13T17:35:16.738Z",
+      "id": 13
+    }
+  ],
+  "workouts": [
+    {
+      "customerId": 7,
+      "workoutName": "Friday Back/Bi (Strength)",
+      "dateCompleted": "Sat Aug 13 2022",
+      "id": 5
+    },
+    {
+      "customerId": 7,
+      "workoutName": "Thursday strength(Legs/shoulders)",
+      "dateCompleted": "Sun Aug 14 2022",
+      "id": 6
+    },
+    {
+      "customerId": 7,
+      "workoutName": "Monday",
+      "dateCompleted": "Fri Sep 02 2022",
+      "id": 8
+    },
+    {
+      "customerId": 7,
+      "workoutName": "Monday Throw-up sesh Legs/shoulders(strength-Mobility)",
+      "dateCompleted": "Tue Sep 13 2022",
+      "id": 9
+    },
+    {
+      "customerId": 9,
+      "workoutName": "Monday(chest/tri) Strength",
+      "dateCompleted": "Sun Nov 13 2022",
+      "id": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Pelvic Tilt with Downward Dog",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "6",
+      "rest": "45sec",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=uPU8289SsHk"
+    },
+    {
+      "id": 2,
+      "name": "Dumbbell Floor Press",
+      "goalId": 1,
+      "sets": "3-4",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 2,
+      "exampleVid": "https://www.youtube.com/watch?v=a9QGTDUUz7M&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs&index=221"
+    },
+    {
+      "id": 3,
+      "name": "Dumbbell Renegade Row Single Arm",
+      "goalId": 2,
+      "sets": "8",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 3,
+      "muscleId": 1,
+      "exampleVid": "https://www.youtube.com/watch?v=hdVKbhl653M"
+    },
+    {
+      "id": 4,
+      "name": " Incline Barbell Bench Press",
+      "goalId": 1,
+      "sets": "5",
+      "reps": "5",
+      "rest": "3-5min",
+      "weightPerSet": "75-85%",
+      "equipmentId": "",
+      "levelId": 3,
+      "muscleId": 2,
+      "exampleVid": "https://youtu.be/vbc9E9_Clb4"
+    },
+    {
+      "id": 5,
+      "name": "Single Arm Incline Dumbbell Chest Press",
+      "goalId": 2,
+      "sets": "3",
+      "reps": "10/side",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 2,
+      "exampleVid": "https://www.youtube.com/watch?v=5Ug5VgTi34I&index=328&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 6,
+      "name": "Swiss Ball Plank Rollout",
+      "goalId": 3,
+      "sets": "",
+      "reps": "12",
+      "rest": "4",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 3,
+      "exampleVid": "https://www.youtube.com/watch?v=9-7IeXlPDtA&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs&index=208"
+    },
+    {
+      "id": 7,
+      "name": "Jacobs Ladder",
+      "goalId": 2,
+      "sets": "3",
+      "reps": "60sec",
+      "rest": "45sec",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 5,
+      "exampleVid": "https://www.youtube.com/watch?v=ccl4Ps3VLB0"
+    },
+    {
+      "id": 8,
+      "name": "Turkish Full Get Up",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "3/side",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 3,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=O4DX0tm0PUo&index=183&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 9,
+      "name": "Pull Up Assisted Neutral Grip ",
+      "goalId": 1,
+      "sets": "4",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 1,
+      "exampleVid": "https://youtu.be/AsUBri1uYzo"
+    },
+    {
+      "id": 10,
+      "name": "Kettle Bell Goblet Squat",
+      "goalId": 3,
+      "sets": "4",
+      "reps": "6",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 3,
+      "exampleVid": "https://www.youtube.com/watch?v=AJXBjM6MjjQ&index=169&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 11,
+      "name": "Pigeon Stretch",
+      "goalId": 1,
+      "sets": "2",
+      "reps": "45sec",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=oLpnMAa1Ugc"
+    },
+    {
+      "id": 12,
+      "name": "Swiss Ball Figure 8",
+      "goalId": 2,
+      "sets": "3",
+      "reps": "5",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=FUVEnSG7AWk&index=209&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 13,
+      "name": "Dumbbell Row in Golf Posture",
+      "goalId": 3,
+      "sets": "4",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 1,
+      "exampleVid": "https://www.youtube.com/watch?v=kR6TXl8juvI"
+    },
+    {
+      "id": 14,
+      "name": "Hammer Strength Ground Base Combo Decline",
+      "goalId": 2,
+      "sets": "4",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=X2ayrv7mSP8&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs&index=188"
+    },
+    {
+      "id": 15,
+      "name": "Single Arm Dumbbell Chest Press",
+      "goalId": 1,
+      "sets": "3",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 2,
+      "exampleVid": "https://www.youtube.com/watch?v=Yy5qVj0zPYk&index=319&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 16,
+      "name": "Freemotion Push Pull Combo",
+      "goalId": 2,
+      "sets": "4",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=0a4HK2LXjUU&index=219&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 17,
+      "name": "Hammer Strength Ground Base Twist Combo",
+      "goalId": 2,
+      "sets": "3",
+      "reps": "10",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=rSiabtOncMw&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs&index=189"
+    },
+    {
+      "id": 18,
+      "name": "Versaclimber",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "60sec",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 5,
+      "exampleVid": "https://www.youtube.com/watch?v=X7x5toklDF4&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs&index=18"
+    },
+    {
+      "id": 20,
+      "name": "Box Step Up",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "6/side",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 3,
+      "exampleVid": "https://www.youtube.com/watch?v=BIOEKGRylLs&index=27&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    },
+    {
+      "id": 21,
+      "name": "DB RDL",
+      "goalId": 1,
+      "sets": "4",
+      "reps": "8",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 3,
+      "exampleVid": "https://youtu.be/hQgFixeXdZo"
+    },
+    {
+      "id": 22,
+      "name": "Burpee T Arm Position ",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "8",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 2,
+      "muscleId": 5,
+      "exampleVid": "https://youtu.be/Kj1jCvCt6w0"
+    },
+    {
+      "id": 23,
+      "name": "Open Book w/ Rear FMT Band Resistance",
+      "goalId": 3,
+      "sets": "3",
+      "reps": "6",
+      "rest": "",
+      "weightPerSet": "",
+      "equipmentId": "",
+      "levelId": 1,
+      "muscleId": 4,
+      "exampleVid": "https://www.youtube.com/watch?v=DkkPO1zijQ4&index=201&list=PLQXADAcqb90DEoWamwb2IVsbN2gWvoKAs"
+    }
+  ]
 }
